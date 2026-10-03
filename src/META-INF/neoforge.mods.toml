@@ -1,0 +1,40 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="apotheosis_emc"
+version="0.1.0"
+displayName="EMC for Apotheosis"
+authors="KURONAMI"
+description='''Adds ProjectE EMC values to selected plain Apotheosis salvage materials.
+Gem variants, affix gear, and other stateful items are excluded.
+'''
+
+[[dependencies.apotheosis_emc]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.235,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.apotheosis_emc]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.apotheosis_emc]]
+modId="projecte"
+type="required"
+versionRange="[1.1.0]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.apotheosis_emc]]
+modId="apotheosis"
+type="required"
+versionRange="[8.9.0]"
+ordering="AFTER"
+side="BOTH"

@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "apotheosis:gem_dust"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1,
+        "id": "apotheosis:mysterious_scrap_metal"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 128,
+        "id": "apotheosis:timeworn_fabric"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "apotheosis:luminous_crystal_shard"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "apotheosis:arcane_sands"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "apotheosis:godforged_pearl"
+      }
+    ]
+  }
+}

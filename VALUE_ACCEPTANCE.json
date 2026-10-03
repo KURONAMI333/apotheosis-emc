@@ -1,0 +1,22 @@
+{
+  "conversion_sha256": "a71cbd08e35d420b0ac88cfddb9f1df8dc6e87c89b47e149bd7a0f6672f86e14",
+  "price_kind": "author_design",
+  "prices": {
+    "apotheosis:gem_dust": 8192,
+    "apotheosis:mysterious_scrap_metal": 1,
+    "apotheosis:timeworn_fabric": 128,
+    "apotheosis:luminous_crystal_shard": 1024,
+    "apotheosis:arcane_sands": 8192,
+    "apotheosis:godforged_pearl": 16384
+  },
+  "price_reason": "Author design: Gem Dust 8192 anchored to ProjectE PE1.1.0 diamond default; common scrap1 avoids cheap-gear salvage gains. Four rarer materials use 128/1024/8192/16384 EMC. Isolated NF247 with addon+PEI+RI observed Sigil of Rebirth 5121 and cheapest mapped LootCategory-eligible gear stone_sword6; all five max-return inequalities pass with release recipe max_count4. These are authored prices, not pre-addon baseline EMC values. Client transmutation and empirical random salvage remain pending.",
+  "loop_assumptions": {
+    "sigil_emc_floor": 5121,
+    "eligible_gear_emc_floor": 6,
+    "salvage_max_count": 4,
+    "source": "Observed isolated NF247 addon+PEI+RI map after /reload: Sigil of Rebirth=5121 and cheapest mapped LootCategory-eligible gear stone_sword=6. Release Apotheosis 8.9.0 affix salvage recipes have max_count=4. Empirical random return and player UI/transmutation remain unobserved."
+  },
+  "runtime_status": "server_map_verified",
+  "baseline_evidence": "ProjectE 1.1.0 plus Apotheosis 8.9.0 baseline had no mapped entry for the six target materials in an isolated server.",
+  "runtime_observation": "Final v0.1.0 JAR was loaded and reloaded on an isolated NeoForge 21.1.247 server with ProjectE 1.1.0, Apotheosis 8.9.0, PEI 8.3.1 and Recipe Integration 0.4.0: six values matched; Sigil of Rebirth 5121 EMC; cheapest mapped eligible gear stone sword 6 EMC."
+}
