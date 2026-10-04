@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": {
+    "before": {
+      "apotheosis:epic_material": 8192,
+      "apotheosis:gem_dust": 8192,
+      "apotheosis:mythic_material": 12288,
+      "apotheosis:rare_material": 1024,
+      "apotheosis:uncommon_material": 128
+    }
+  }
+}
